@@ -65,7 +65,7 @@
         <img src="images/hero/hero.jpg" alt="Diseño web moderno y profesional">
       </div>
       Imagen a la derecha -->
-      
+
 <div class="hero-console">
   <pre id="terminal"><span id="cursor">|</span></pre>
 </div>
@@ -249,11 +249,11 @@ function typeLine() {
   const cursor = document.getElementById("cursor");
 
   if (index < lines.length) {
-    cursor.remove(); // 🔥 quitamos cursor del DOM
+    cursor.remove(); 
 
     terminal.innerHTML += lines[index] + "<br>";
 
-    terminal.appendChild(cursor); // 🔥 lo volvemos a poner al final
+    terminal.appendChild(cursor); 
 
     index++;
     setTimeout(typeLine, 200);
