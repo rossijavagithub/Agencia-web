@@ -1,5 +1,5 @@
 /* ════════════════════════════════════════
-   🌌 RESET GLOBAL + MODERN TWEAKS
+   RESET GLOBAL + MODERN TWEAKS
 ════════════════════════════════════════ */
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 /* ════════════════════════════════════════
-   🎨 VARIABLES - PALETA MEJORADA
+   VARIABLES - PALETA MEJORADA
 ════════════════════════════════════════ */
 :root {
   --primary: #4D648D;        /* Blueberry - ahora más usado como acento principal */
@@ -31,7 +31,7 @@ html {
 }
 
 /* ════════════════════════════════════════
-   🧬 BASE
+   BASE
 ════════════════════════════════════════ */
 body {
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
@@ -54,7 +54,7 @@ a {
 }
 
 /* ════════════════════════════════════════
-   🛠️ NAVBAR - Glassmorphism mejorado
+   NAVBAR - Glassmorphism mejorado
 ════════════════════════════════════════ */
 .nav {
   position: fixed;
@@ -120,7 +120,7 @@ a {
 }
 
 /* ════════════════════════════════════════
-   💋 HERO - Más impactante
+   HERO - Más impactante
 ════════════════════════════════════════ */
 .home-hero {
   padding: 160px 0 100px;
@@ -176,7 +176,7 @@ a {
 }
 
 /* ════════════════════════════════════════
-   🔘 BOTONES - Más premium
+    BOTONES - Más premium
 ════════════════════════════════════════ */
 .btn {
   padding: 14px 26px;
@@ -213,7 +213,7 @@ a {
 }
 
 /* ════════════════════════════════════════
-   🐺 STATS + FEATURES + CARDS - Glass effect
+   STATS + FEATURES + CARDS - Glass effect
 ════════════════════════════════════════ */
 .home-stats, .home-features, .service-section, .team, .brand {
   padding: 100px 0;
@@ -391,7 +391,7 @@ a {
 }
 
 /* ════════════════════════════════════════
-   📱 RESPONSIVE + MEJORAS
+   RESPONSIVE + MEJORAS
 ════════════════════════════════════════ */
 @media (max-width: 992px) {
   .footer-top {
@@ -424,7 +424,7 @@ a {
 
 
 /* ════════════════════════════════════════
-   🌌 RESET GLOBAL
+   RESET GLOBAL
 ════════════════════════════════════════ */
 * {
   margin: 0;
@@ -437,7 +437,7 @@ html {
 }
 
 /* ════════════════════════════════════════
-   🎨 VARIABLES - PALETA AZUL PROFUNDA
+   VARIABLES - PALETA AZUL PROFUNDA
 ════════════════════════════════════════ */
 :root {
   --primary: #4D648D;        /* Blueberry - Acento principal */
@@ -456,7 +456,7 @@ html {
 }
 
 /* ════════════════════════════════════════
-   🧬 BASE
+   BASE
 ════════════════════════════════════════ */
 body {
   font-family: 'Segoe UI', system-ui, sans-serif;
@@ -479,7 +479,7 @@ a {
 }
 
 /* ════════════════════════════════════════
-   🛠️ NAVBAR
+   NAVBAR
 ════════════════════════════════════════ */
 .nav {
   position: fixed;
@@ -542,7 +542,7 @@ a {
 }
 
 /* ════════════════════════════════════════
-   💋 HERO
+   HERO
 ════════════════════════════════════════ */
 .home-hero {
   padding: 160px 0 100px;
@@ -585,7 +585,7 @@ a {
 }
 
 /* ════════════════════════════════════════
-   🔘 BOTONES
+   BOTONES
 ════════════════════════════════════════ */
 .btn {
   padding: 14px 26px;
@@ -620,7 +620,7 @@ a {
 }
 
 /* ════════════════════════════════════════
-   🐺 STATS + FEATURES + CARDS
+   STATS + FEATURES + CARDS
 ════════════════════════════════════════ */
 .home-stats, .home-features, .service-section, .team, .brand {
   padding: 100px 0;
@@ -678,7 +678,7 @@ a {
 }
 
 /* ════════════════════════════════════════
-   👩‍💻 TEAM - MEJORADO (Esto es lo que más te importa)
+   TEAM - MEJORADO (Esto es lo que más te importa)
 ════════════════════════════════════════ */
 .team {
   padding: 100px 0;
@@ -822,7 +822,7 @@ a {
 }
 
 /* ════════════════════════════════════════
-   📱 RESPONSIVE
+   RESPONSIVE
 ════════════════════════════════════════ */
 @media (max-width: 992px) {
   .footer-top {
@@ -851,8 +851,7 @@ a {
 
 
 /* =============================================
-   🔥 ARREGLO ESPECÍFICO PARA LAS FOTOS DE ROLES
-   (Sección "Roles del equipo")
+   ARREGLO ESPECÍFICO PARA LAS FOTOS DE ROLES
 ============================================= */
 
 .home-features-grid {
@@ -901,7 +900,7 @@ a {
 
 
 /* =============================================
-   🐺 IMAGEN GENERAL DEL EQUIPO (home-stats)
+   IMAGEN GENERAL DEL EQUIPO (home-stats)
 ============================================= */
 
 .home-stats {
@@ -977,7 +976,7 @@ a {
 
 
 /* =============================================
-   📩 CONTACTO - Arreglado y mejorado
+   CONTACTO - Arreglado y mejorado
 ============================================= */
 
 .contacto {
@@ -1293,7 +1292,7 @@ form button:hover {
 }
 
 /* =============================================
-   💋 HERO CON IMAGEN A LA DERECHA
+    HERO CON IMAGEN A LA DERECHA
 ============================================= */
 
 .home-hero {
@@ -1374,7 +1373,7 @@ form button:hover {
   }
 }
 
-/* 💻 CONSOLA REALISTA Y ELEGANTE */
+/* CONSOLA REALISTA Y ELEGANTE */
 .hero-console {
   background: #0b0f14;
   color: #d1d5db;
@@ -1393,13 +1392,13 @@ form button:hover {
   overflow: hidden;
 }
 
-/* 🧠 TERMINAL */
+/* TERMINAL */
 #terminal {
-  white-space: pre-wrap; /* 👈 IMPORTANTE (antes tenías pre-line) */
+  white-space: pre-wrap; 
   margin: 0;
 }
 
-/* 🎯 COLORES */
+/*  COLORES */
 #terminal .cmd {
   color: #60a5fa;
 }
