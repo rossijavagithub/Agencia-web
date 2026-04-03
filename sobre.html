@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="Conoce a Agencia Web, nuestro equipo y nuestra forma de crear páginas modernas, funcionales y rápidas." />
   <title>Sobre nosotras | Agencia Web</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/styles1.css" />
 </head>
 
 <body>
@@ -13,7 +13,6 @@
 <header>
   <nav class="nav">
     <div class="nav-inner">
-
       <a href="index.html" class="nav-logo">
         Agencia<span>Web</span>
       </a>
@@ -25,81 +24,99 @@
         <li><a href="sobre.html" class="active">Sobre nosotras</a></li>
         <li><a href="contacto.html" class="nav-cta">Contacto</a></li>
       </ul>
-
     </div>
   </nav>
 </header>
 
 <main>
 
-<!-- CONTENIDO DE MARCA -->
+  <!-- CONTENIDO DE MARCA -->
   <section class="brand">
-    <h2>Nuestra esencia</h2>
-    <p>
-      En Agencia Web creemos en la simplicidad, la funcionalidad y el diseño con propósito.
-      Creamos sitios web pensados para resolver problemas reales, sin complicaciones ni exceso de elementos.
-    </p>
+    <div class="container">
+      <h2>Nuestra esencia</h2>
+      <p>
+        En Agencia Web creemos en la simplicidad, la funcionalidad y el diseño con propósito.
+        Creamos sitios web pensados para resolver problemas reales, sin complicaciones ni exceso de elementos.
+      </p>
 
-    <p>
-      Nuestro enfoque combina rendimiento, claridad y experiencia de usuario para ofrecer soluciones digitales que realmente funcionan.
-    </p>
+      <p>
+        Nuestro enfoque combina rendimiento, claridad y experiencia de usuario para ofrecer soluciones digitales que realmente funcionan.
+      </p>
 
-    <ul>
-      <li>Diseño limpio y moderno</li>
-      <li>Experiencia de usuario optimizada</li>
-      <li>Webs rápidas y adaptables</li>
-      <li>Código claro y mantenible</li>
-    </ul>
+      <ul>
+        <li>Diseño limpio y moderno</li>
+        <li>Experiencia de usuario optimizada</li>
+        <li>Webs rápidas y adaptables</li>
+        <li>Código claro y mantenible</li>
+      </ul>
+    </div>
   </section>
 
   <!-- PRESENTACIÓN DEL EQUIPO -->
   <section class="team">
-    <h2>Nuestro equipo</h2>
+    <div class="container">
+      <h2>Nuestro equipo</h2>
 
-    <div class="team-container">
+      <div class="team-container">
 
-      <div class="member">
-        <h3>Noa</h3>
-        <p><strong>Líder técnica Frontend & Arquitectura</strong></p>
-        <p>Encargada de la estructura del proyecto y la organización general del desarrollo.</p>
+        <div class="member">
+          <img src="images/equipo/noa.jpg" alt="Noa - Líder técnica Frontend">
+          <h3>Noa</h3>
+          <p><strong>Líder técnica Frontend & Arquitectura</strong></p>
+          <p>Encargada de la estructura del proyecto y la organización general del desarrollo.</p>
+        </div>
+
+        <div class="member">
+          <img src="images/equipo/rossana.jpg" alt="Rossana - Diseño & Contenido">
+          <h3>Rossana</h3>
+          <p><strong>Diseño & Contenido</strong></p>
+          <p>Se encarga de la organización del contenido y la claridad de los textos.</p>
+        </div>
+
+        <div class="member">
+          <img src="images/equipo/gizelle.jpg" alt="Gizelle - Contenido de marca">
+          <h3>Gizelle</h3>
+          <p><strong>Contenido de marca</strong></p>
+          <p>Define la identidad de la agencia y la comunicación del equipo.</p>
+        </div>
+
+        <div class="member">
+          <img src="images/equipo/catalina.jpg" alt="Catalina - Contacto & Usabilidad">
+          <h3>Catalina</h3>
+          <p><strong>Contacto & Usabilidad</strong></p>
+          <p>Responsable de la interacción con el usuario y la página de contacto.</p>
+        </div>
+
       </div>
+    </div>
+  </section>
 
-      <div class="member">
-        <h3>Rossana</h3>
-        <p><strong>Diseño & Contenido</strong></p>
-        <p>Se encarga de la organización del contenido y la claridad de los textos.</p>
-      </div>
-
-      <div class="member">
-        <h3>Gizelle</h3>
-        <p><strong>Contenido de marca</strong></p>
-        <p>Define la identidad de la agencia y la comunicación del equipo.</p>
-      </div>
-
-      <div class="member">
-        <h3>Catalina</h3>
-        <p><strong>Contacto & Usabilidad</strong></p>
-        <p>Responsable de la interacción con el usuario y la página de contacto.</p>
-      </div>
-
+  <!-- CTA FINAL -->
+  <section class="home-cta">
+    <div class="container">
+      <h2>¿Tienes una idea?</h2>
+      <p>Escríbenos y vemos cómo llevarla a algo real. Sin compromiso.</p>
+      <a href="contacto.html" class="btn btn-primary">Empezar proyecto</a>
     </div>
   </section>
 
 </main>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="container">
-
     <div class="footer-top">
 
+      <!-- Marca -->
       <div class="footer-brand">
-        <div class="footer-logo">Agencia<span>Web</span></div>
-        <p>
-          Webs modernas, rápidas y pensadas para funcionar.
-        </p>
+        <a href="index.html" class="footer-logo">
+          Agencia<span>Web</span>
+        </a>
+        <p>Webs modernas, rápidas y pensadas para funcionar.</p>
       </div>
 
-      <div class="footer-col">
+      <!-- Navegación -->
+      <nav class="footer-nav">
         <h4>Sitio</h4>
         <ul>
           <li><a href="index.html">Inicio</a></li>
@@ -107,9 +124,10 @@
           <li><a href="equipo.html">Equipo</a></li>
           <li><a href="contacto.html">Contacto</a></li>
         </ul>
-      </div>
+      </nav>
 
-      <div class="footer-col">
+      <!-- Servicios -->
+      <div class="footer-services">
         <h4>Servicios</h4>
         <ul>
           <li><a href="#">Web básica</a></li>
@@ -118,13 +136,24 @@
         </ul>
       </div>
 
+      <!-- Redes -->
+      <div class="footer-social">
+        <h4>Síguenos</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="LinkedIn">IN</a>
+          <a href="#" aria-label="Twitter">TW</a>
+        </div>
+      </div>
+
     </div>
+
+    <div class="footer-divider"></div>
 
     <div class="footer-bottom">
       <p>© 2026 Agencia Web</p>
       <p>Hecho por Noa, Gizella, Catalina & Rosana</p>
     </div>
-
   </div>
 </footer>
 

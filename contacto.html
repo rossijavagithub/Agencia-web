@@ -1,64 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Conoce al equipo de Agencia Web: diseño web, desarrollo, branding y marketing digital." />
+  <title>Equipo | Agencia Web</title>
+  <link rel="stylesheet" href="css/styles1.css" />
+</head>
 
+<body>
+
+<!-- 🛠️ MENU DE NAVEGACIÓN -->
+<header>
+  <nav class="nav">
+    <div class="nav-inner">
+
+      <a href="index.html" class="nav-logo">
+        Agencia<span>Web</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="equipo.html" class="active">Equipo</a></li>
+        <li><a href="sobre.html">Sobre nosotras</a></li>
+        <li><a href="contacto.html" class="nav-cta">Contacto</a></li>
+      </ul>
+
+    </div>
+  </nav>
+</header>
 
 <main>
-
 
   <section class="contacto">
     <div class="container">
 
+      <h1>Contáctanos</h1>
+      <p>Rellena el formulario y te responderemos pronto</p>
 
-</main><!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Contacto</title>
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
+      <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
 
-    <section class="contacto">
-        <h1>Contáctanos</h1>
-        <p>¡Hablemos! Estaremos encantados de saber de ti.</p>
+        <label for="email">Correo</label>
+        <input type="email" id="email" placeholder="Tu correo" required>
 
-        <form>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
 
-            <label for="email">Correo</label>
-            <input type="email" id="email" placeholder="Tu correo" required>
-
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
-
-            <button type="submit">Enviar</button>
-
-        </form>
         <label for="servicio">Tipo de trabajo</label>
-<select id="servicio" required>
-    <option value="">Selecciona una opción</option>
-    <option value="web">Página web básica</option>
-    <option value="tienda">Tienda online</option>
-    <option value="landing">Landing page</option>
-    <option value="rediseño">Rediseño web</option>
-</select>
-    </section>
+        <select id="servicio" required>
+          <option value="">Selecciona una opción</option>
+          <option value="web">Página web básica</option>
+          <option value="tienda">Tienda online</option>
+          <option value="landing">Landing page</option>
+          <option value="rediseño">Rediseño web</option>
+        </select>
 
-</body>
-</html>
+        <button type="submit">Enviar</button>
+      </form>
 
+    </div>
+  </section>
+
+</main>
+
+  <!------------------------------------------------------------------>
+
+  <!-- 4. ♥️ CTA -->
+  <section class="home-cta">
+    <div class="container">
+
+      <h2>¿Tienes una idea?</h2>
+
+      <p>
+        Escríbenos y vemos cómo llevarla a algo real.
+        Sin compromiso.
+      </p>
+
+      <a href="contacto.html" class="btn btn-primary">
+        Empezar proyecto
+      </a>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- 👣 FOOTER -->
 <footer class="footer">
+
   <div class="container">
 
+    <!-- 🔥 BLOQUE SUPERIOR -->
     <div class="footer-top">
 
+      <!-- 💎 MARCA -->
       <div class="footer-brand">
-        <div class="footer-logo">Agencia<span>Web</span></div>
+        <a href="index.html" class="footer-logo">
+          Agencia<span>Web</span>
+        </a>
         <p>
           Webs modernas, rápidas y pensadas para funcionar.
         </p>
       </div>
 
-      <div class="footer-col">
+      <!-- 📂 NAVEGACIÓN -->
+      <nav class="footer-nav">
         <h4>Sitio</h4>
         <ul>
           <li><a href="index.html">Inicio</a></li>
@@ -66,9 +115,10 @@
           <li><a href="equipo.html">Equipo</a></li>
           <li><a href="contacto.html">Contacto</a></li>
         </ul>
-      </div>
+      </nav>
 
-      <div class="footer-col">
+      <!-- 🧩 SERVICIOS -->
+      <div class="footer-services">
         <h4>Servicios</h4>
         <ul>
           <li><a href="#">Web básica</a></li>
@@ -77,15 +127,32 @@
         </ul>
       </div>
 
+      <!-- 🌐 REDES -->
+      <div class="footer-social">
+        <h4>Síguenos</h4>
+
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="LinkedIn">IN</a>
+          <a href="#" aria-label="Twitter">TW</a>
+        </div>
+      </div>
+
     </div>
 
+    <!-- ⚡ SEPARADOR -->
+    <div class="footer-divider"></div>
+
+    <!-- 🔻 PARTE INFERIOR -->
     <div class="footer-bottom">
       <p>© 2026 Agencia Web</p>
       <p>Hecho por Noa, Gizella, Catalina & Rosana</p>
     </div>
 
   </div>
+
 </footer>
+<!------------------------------------------------------------------>
 
 </body>
 </html>
