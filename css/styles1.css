@@ -1373,3 +1373,69 @@ form button:hover {
     padding: 120px 0 80px;
   }
 }
+
+/* 💻 CONSOLA REALISTA Y ELEGANTE */
+.hero-console {
+  background: #0b0f14;
+  color: #d1d5db;
+  padding: 20px;
+  border-radius: 12px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 520px;
+
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.4),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+
+  /* 👇 clave para que todo fluya bien */
+  overflow: hidden;
+}
+
+/* 🧠 TERMINAL */
+#terminal {
+  white-space: pre-wrap; /* 👈 IMPORTANTE (antes tenías pre-line) */
+  margin: 0;
+}
+
+/* 🎯 COLORES */
+#terminal .cmd {
+  color: #60a5fa;
+}
+
+#terminal .success {
+  color: #4ade80;
+}
+
+#terminal .muted {
+  color: #6b7280;
+}
+
+/* 🔹 ICONOS */
+#terminal span.icon {
+  margin-right: 8px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+#terminal svg {
+  width: 14px;
+  height: 14px;
+  fill: #9ca3af;
+}
+
+/* 💫 CURSOR */
+#cursor {
+  display: inline-block;
+  margin-left: 2px;
+  color: #9ca3af;
+  font-weight: bold;
+  animation: blink 1s infinite;
+}
+
+/* ✨ ANIMACIÓN */
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}

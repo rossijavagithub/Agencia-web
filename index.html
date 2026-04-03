@@ -7,6 +7,10 @@
   <meta name="description" content="Agencia Web — Creamos webs modernas, funcionales y rápidas." />
   <title>Agencia Web</title>
   <link rel="stylesheet" href="css/styles1.css" />
+<span class="icon">
+  <img src="https://cdn.jsdelivr.net/npm/@tabler/icons/icons/world.svg">
+</span>
+
 </head>
 
 <body>
@@ -56,10 +60,15 @@
         </div>
       </div>
 
-      <!-- Imagen a la derecha -->
+      <!-- 
       <div class="home-hero-image">
-        <img src="images/hero/hero-digital.png" alt="Diseño web moderno y profesional">
+        <img src="images/hero/hero.jpg" alt="Diseño web moderno y profesional">
       </div>
+      Imagen a la derecha -->
+      
+<div class="hero-console">
+  <pre id="terminal"><span id="cursor">|</span></pre>
+</div>
 
     </div>
   </div>
@@ -217,6 +226,61 @@
 
   </footer>
   <!------------------------------------------------------------------>
+
+
+
+  <script>
+const lines = [
+  `<span class="cmd">$ npm run build</span>`,
+  `<span class="success">✔ Compiling modules...</span>`,
+  ``,
+  `<span class="icon">${webIcon()}</span> Web básica → rápida y funcional`,
+  `<span class="icon">${proIcon()}</span> Web profesional → diseño + estrategia`,
+  `<span class="icon">${shopIcon()}</span> E-commerce → lista para vender`,
+  ``,
+  `<span class="success">✔ Deploy completado</span>`,
+  `<span class="muted">Agencia Web online</span>`
+];
+
+let index = 0;
+
+function typeLine() {
+  const terminal = document.getElementById("terminal");
+  const cursor = document.getElementById("cursor");
+
+  if (index < lines.length) {
+    cursor.remove(); // 🔥 quitamos cursor del DOM
+
+    terminal.innerHTML += lines[index] + "<br>";
+
+    terminal.appendChild(cursor); // 🔥 lo volvemos a poner al final
+
+    index++;
+    setTimeout(typeLine, 200);
+  }
+}
+
+typeLine();
+
+// ICONOS
+function webIcon() {
+  return `<svg viewBox="0 0 24 24">
+    <path d="M4 4h16v16H4zM6 6v4h12V6z"/>
+  </svg>`;
+}
+
+function proIcon() {
+  return `<svg viewBox="0 0 24 24">
+    <path d="M12 2l4 7h-8l4-7z"/>
+  </svg>`;
+}
+
+function shopIcon() {
+  return `<svg viewBox="0 0 24 24">
+    <path d="M7 4h10l2 6H5l2-6z"/>
+  </svg>`;
+}
+</script
 
 </body>
 </html>
