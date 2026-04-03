@@ -1291,3 +1291,85 @@ form button:hover {
   margin: 0 auto 30px;
   opacity: 0.85;
 }
+
+/* =============================================
+   💋 HERO CON IMAGEN A LA DERECHA
+============================================= */
+
+.home-hero {
+  padding: 140px 0 100px;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+}
+
+.home-hero-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.home-hero-content {
+  max-width: 520px;
+}
+
+.home-hero-content .home-mini {
+  font-size: 0.95rem;
+  opacity: 0.7;
+  margin-bottom: 12px;
+}
+
+.home-hero-content h1 {
+  font-size: 3.4rem;
+  line-height: 1.15;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.home-hero-content span {
+  color: var(--primary);
+}
+
+.home-hero-content .home-subtitle {
+  font-size: 1.15rem;
+  opacity: 0.85;
+  margin-bottom: 40px;
+}
+
+/* IMAGEN DEL HERO */
+.home-hero-image {
+  position: relative;
+}
+
+.home-hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .home-hero-wrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .home-hero-image {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .home-hero-content h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-hero {
+    padding: 120px 0 80px;
+  }
+}
