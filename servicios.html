@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="Servicios de Agencia Web: diseño web, desarrollo, copywriting, e-commerce, WordPress, branding y marketing digital." />
   <title>Servicios | Agencia Web</title>
-  
+  <!-- Enlace hacia Font Awesome para poder insertar los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- FUENTES PREMIUM MODERNAS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" />
   
@@ -16,9 +19,15 @@
 
 <!-- NAVEGACIÓN -->
 <header>
-  <nav class="nav">
-    <div class="nav-inner">
-      <a href="index.html" class="nav-logo">Agencia<span>Web</span></a>
+    <nav class="nav">
+      <div class="nav-inner">
+
+        <a href="index.html" class="nav-logo">
+          <!-- Ahora insertamos el icono aqui -->
+          <i class="fa-solid fa-square-share-nodes"></i>
+          Agencia<span>Web</span>
+        </a>
+      
       <ul class="nav-links">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="servicios.html" class="active">Servicios</a></li>
@@ -535,9 +544,9 @@
       <div class="footer-social">
         <h4>Síguenos</h4>
         <div class="social-links">
-          <a href="#" aria-label="Instagram">IG</a>
-          <a href="#" aria-label="LinkedIn">IN</a>
-          <a href="#" aria-label="Twitter">TW</a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
       </div>
     </div>
